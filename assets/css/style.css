@@ -1,6 +1,4 @@
 * {
-    /* box-sizing: border-box; */
-    /* font-size: 30px; */
     font-family: Helvetica, sans-serif;
 }
 
@@ -20,11 +18,7 @@ header {
     flex-direction: row;
     font-size: 20px;
     text-align: center;
-    /* flex-wrap: wrap; */
 }
-
-
-/* Responsive layout - makes a one column layout instead of a two-column layout */
 
 @media (max-width: 800px) {
     .flex-container {
@@ -36,7 +30,6 @@ header {
     background-color: #ecf0f1;
     border-radius: 10px;
     padding: 20px;
-    /* flex-wrap: wrap; */
     flex: 50%;
     margin: 10px;
 }
@@ -45,7 +38,6 @@ header {
     background-color: #bdc3c7;
     border-radius: 10px;
     padding: 20px;
-    /* flex-wrap: wrap; */
     flex: 50%;
     margin: 10px;
 }
