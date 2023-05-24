@@ -1,7 +1,7 @@
 function hitungLuas() {
     var sisiLuas = document.getElementsByName("sisi-luas");
     var luas = sisiLuas[0].value * sisiLuas[0].value;
-    // input validation
+    // validasi input
     if (sisiLuas[0].value == "") {
         alert("Silahkan Masukkan Angka")
         return false;
@@ -22,7 +22,7 @@ function resetLuas() {
 function hitungKeliling() {
     var sisiKeliling = document.getElementsByName("sisi-keliling");
     var keliling = 4 * sisiKeliling[0].value;
-    // input validation
+    // validasi input
     if (sisiKeliling[0].value == "") {
         alert("Silahkan Masukkan Angka")
         return false;
